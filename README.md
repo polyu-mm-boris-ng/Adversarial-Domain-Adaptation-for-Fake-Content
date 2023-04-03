@@ -159,7 +159,8 @@ python -u main.py \
 ### Calculate transferability score
 
 To calculate the transferability score that quantifies the domain transferability using the following equation:
-$$\text { TranScore }=\cos \left(\bar{V}_{S, n o D A}$$
+
+$$\text { TranScore }=\cos \left(\bar{V}_{S, n o D A}, \bar{V}_{T, n o D A}\right) / \cos \left(\bar{V}_{S, D A}, \bar{V}_{T, D A}\right)$$
 
 Please run the following example command:
 ```
