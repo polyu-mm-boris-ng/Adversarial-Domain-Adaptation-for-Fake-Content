@@ -6,8 +6,7 @@ The official implementation of paper "[Augmenting fake content detection in onli
 
 The dataset is avaliable at `data` directory, which contains two csv data file: source.csv, target.csv.
 
-Please note that the current dataset (source and target are sampled from [Amazon review data (2018) Magazine Subscriptions category](https://jmcauley.ucsd.edu/data/amazon_v2/categoryFiles/Magazine_Subscriptions.json.gz) and [IMDB Dataset of 50K Movie Reviews
-](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews), respectively) is provided only for development and testing purposes. The original dataset mentioned in the paper is not available due to copyright issues.
+Please note that the current dataset (source and target are sampled from [Amazon review data (2018) Magazine Subscriptions category](https://jmcauley.ucsd.edu/data/amazon_v2/categoryFiles/Magazine_Subscriptions.json.gz) and [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews), respectively) is provided only for development and testing purposes. To obtain the original dataset, please refer to the research paper.
 
 ### Data format:
 ```
